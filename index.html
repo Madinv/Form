@@ -6,22 +6,22 @@
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-
-    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<script src="script.js"></script> 
+<title>Form</title>
 </head>
 <body>
     <main>
-        <section class="wrapper-form">
+        <div class="main-form">
             <div class="main-label-container">
-                <p class="main-label">Stax Food Admin Login</p>
+                <p>Stax Food Admin Login</p>
             </div>
-              <div class="header">
-            <div class="form">
-            <p class="main-text">Please fill in your unique admin login details below</p>
-
-            <form action="#" method="get" class="register-form">
-
+              
+                 <div class="form">
+                   <form action="#" method="get" class="register-form">
+                      <p class="main-text">Please fill in your unique admin login details below</p>
                 <div>
                 <div><label for="user_email">Email address</label></div>
                 <input type="email" name="email" class="main-input" required>
@@ -30,20 +30,16 @@
                 <div>
                 <label for="user_password">Password</label>
                 <div><input type="password" name="password" class="main-input" min="6" max="20" required></div>
-                <img src="Img/visibility_off.svg" alt="Значок секрета" class="img3">
+                
                </div>
-
+               <img src="Img/фон3.svg" alt="Значок секрета" class="img3">
                     <div class="password">
                         <a href="#" class="password-control">forgot password?</a>
                     </div>
-
-                <button type="submit" class="register-button">Sign In</button>
+                <button type="submit" class="register-button" onclick="myFunction()">Sign In</button>
             </div> 
-            </div>
             </form>
-        </section>
-      </div>
+        </div>
     </main>
 </body>
-
 </html>
